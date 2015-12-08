@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView
+	      android:id="@+id/textView1"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_centerHorizontal="true"
+	      android:layout_marginTop="20dp"
+	      android:text="ABOUT US"
+	      android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Restaurant specializes in offering patrons with deliciously tasting dishes like their popular Butter Chicken, Chicken Tandoori, and Lamb Vindaloo. At Mukut, we are committed to our customers by providing them with exceptional service and experience. In 2002, Mukut was presented with the Ottawa City Magazine Restaurant Award."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp" >
+
+    <ImageView
+        android:id="@+id/director"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+ 		android:padding="5dp" 
+ 		android:src="@drawable/man"/>
+    
+    <TextView
+	      android:id="@+id/textView3"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_centerHorizontal="true"
+	      android:layout_marginTop="15dp"
+	      android:text="DIRECTOR : Mr. XYZ"
+	      android:textAppearance="?android:attr/textAppearanceLarge" />
+	</RelativeLayout>
+	<RelativeLayout   
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/telephone"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+ 		android:padding="5dp" 
+ 		android:src="@drawable/telephone"/>
+    
+    <TextView
+	      android:id="@+id/textView4"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_centerHorizontal="true"
+	      android:layout_marginTop="15dp"
+	      android:text="613-123-4567"
+	      android:textAppearance="?android:attr/textAppearanceLarge" />
+	</RelativeLayout>
+</LinearLayout>
